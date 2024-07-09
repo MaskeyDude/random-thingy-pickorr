@@ -1,0 +1,78 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 1em;
+}
+
+.ideas {
+    margin: 0.4em 0;
+    padding: 1em;
+    border-radius: 4px;
+    background-color: rgb(24, 20, 56);
+    text-align: center;
+}
+
+.idea-btn {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0.6em 0;
+    padding: 0.6em 1em;
+    border-radius: 4px;
+    border: 1px white solid;
+    transition: 0.4s;
+    color: white;
+    background: transparent;
+}
+
+.idea-btn:hover {
+    cursor: pointer;
+    color: rgb(24, 20, 56);
+    background-color: white;
+}
+
+.idea {
+    font-size: 1.3em;
+    color: white;
+    margin: 0.6em 0;
+}
+
+/* add ideas */
+
+.add-ideas {
+    margin: 0.4em 0;
+    padding: 1em;
+    border-radius: 4px;
+    background-color: rgb(78, 72, 129);
+    text-align: center;
+}
+
+.input-field {
+    padding: 0.4em 0.6em;
+    font-size: 0.9em;
+    color: #181438;
+    border-radius: 3px;
+    border: 1.7px solid transparent;
+}
+
+.add-btn {
+    padding: 0.4em 0.6em;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fff;
+    /* background-color: #181438; */
+    background: none;
+    border-radius: 3px;
+    border: 1.7px solid #fff;
+    transition: 0.4s;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+    color: rgb(78, 72, 129);
+    background: #fff;
+    border: 1.7px solid #fff;
+}
+
